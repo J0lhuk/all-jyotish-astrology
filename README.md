@@ -110,7 +110,7 @@ rather than inventing numbers or tables.
 ### 7. Daśā systems
 - **Vimśottari** (up to 5 levels: mahā → antar → pratyantar → sūkṣma → prāṇa), with the current running chain at *any* instant.
 - **Yoginī**, **Aṣṭottarī**, **Kālachakra**, and minor **conditional** daśās.
-- **Jaimini**: **Chara daśā** (Rao and Iranganti variants, with co-lords and unequal antardaśās), **Nārāyaṇa daśā**, **Niryāṇa Śūla daśā** (longevity), and **Sudarsana Chakra daśā** (1 house/year from the strongest of Lagna/Moon/Sun; Parasara/Rao).
+- **Jaimini**: **Chara daśā** (Rao and Iranganti variants, with co-lords and unequal antardaśās), **Nārāyaṇa daśā**, **Niryāṇa Śūla daśā** (longevity), **Sudarsana Chakra daśā** (1 house/year from the strongest of Lagna/Moon/Sun), and **Mūla daśā** (Vimśottari − mūlatrikoṇa count, kendrādi order; Rath) — a Vimśottari-derived graha daśā.
 
 ### 8. Transits & timing
 - **Gochara** (transits) over the natal chart, with **Vedha** (obstruction) and the **Aṣṭakavarga-gated** transit map.
@@ -307,7 +307,7 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 ### 7. Системы даш
 - **Вимшоттари** (до 5 уровней: маха → антар → пратьянтар → сукшма → прана), с текущей действующей цепочкой на *любой* момент.
 - **Йогини**, **Аштоттари**, **Калачакра** и малые **условные** даши.
-- **Джаймини**: **Чара-даша** (варианты Рао и Иранганти, с со-владыками и неравными антардашами), **Нараяна-даша**, **Ниряна-Шула-даша** (долголетие) и **Сударшана-чакра-даша** (1 дом/год от сильнейшего Лагна/Луна/Солнце; Парашара/Рао).
+- **Джаймини**: **Чара-даша** (варианты Рао и Иранганти, с со-владыками и неравными антардашами), **Нараяна-даша**, **Ниряна-Шула-даша** (долголетие) **Сударшана-чакра-даша** (1 дом/год от сильнейшего Лагна/Луна/Солнце) и **Мула-даша** (Вимшоттари − мулатрикона-счёт, кендради-порядок; Ратх) — грах-даша от Вимшоттари.
 
 ### 8. Транзиты и тайминг
 - **Гочара** (транзиты) по натальной карте, с **Ведхой** (обструкцией) и картой транзитов с **гейтингом по Аштакаварге**.
