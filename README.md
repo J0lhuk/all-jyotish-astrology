@@ -87,7 +87,7 @@ rather than inventing numbers or tables.
 - **Special lagnas** (Ārūḍha, Hora, Ghati, etc.).
 - **Jaimini rāja-yogas** — AK–AmK sambandha (by rāśi-dṛṣṭi or conjunction), Kārakāṁśa rāja-yogas.
 - **Death significators** (Brahma / Maheśvara / Rudra) for longevity work.
-- **Jaimini rāśi daśās** — **Sthira** (fixed 7/8/9-yr signs from Brahma's rāśi), **Thrikona** (from the strongest trine, trine-triad order), **Brahma** (lagna-parity start, span to the 6th-lord's placement); **Yogardha** (½·[Chara+Sthira]), **Varnada** (Varṇada-lagna per bhāva), **Drig** (Jagannath/Rao — 9th/10th/11th rāśi-dṛṣṭi sets), **Lagna-Kendrādi** & **Sudasa** (wealth, seeded from **Sree Lagna**; Rao), plus Chara / Nārāyaṇa / Śūla.
+- **Jaimini rāśi daśās** — **Sthira** (fixed 7/8/9-yr signs from Brahma's rāśi), **Thrikona** (from the strongest trine, trine-triad order), **Brahma** (lagna-parity start, span to the 6th-lord's placement); **Yogardha** (½·[Chara+Sthira]), **Varnada** (Varṇada-lagna per bhāva), **Drig** (Jagannath/Rao — 9th/10th/11th rāśi-dṛṣṭi sets), **Lagna-Kendrādi** & **Sudasa** (wealth, from **Sree Lagna**; Rao), **Mandooka** (+3 frog-jump, BPHS) and **Karaka daśā** (kāraka graha daśā, BPHS); plus Chara / Nārāyaṇa / Śūla.
 
 ### 4. Krishnamurti Paddhati (KP)
 - KP chart on **Placidus cusps** with the **Krishnamurti ayanāṁśa**.
@@ -196,12 +196,10 @@ The engine **declares** what it does not compute rather than guessing:
   (a partner-less star has no vedha); this is stated, not treated as missing data.
 - **Phala-Śūla daśā — not implemented.** It exists to predict the *age of death*
   (54–63); withheld for the same reason Āyurdāya is band-only.
-- **Manduka / Navāṁśa / Nakshatra daśās — deferred.** True Manduka uses the 3rd/11th
-  *mandūki-gati* over the Rudrāṁśa; its full span construction, and the Navāṁśa and
-  Nakshatra rāśi daśās, are not given unambiguously in the available sources, so
-  they are not fabricated. Eleven Jaimini rāśi daśās *are* implemented (Chara,
-  Sthira, Thrikona, Brahma, Yogardha, Varnada, Drig, Sudasa, Lagna-Kendrādi,
-  Nārāyaṇa, Niryāṇa-Śūla).
+- **Navāṁśa / Nakshatra daśās — deferred.** BPHS/Raman give no distinct, unambiguous
+  construction for these two, so they are not fabricated. Twelve Jaimini rāśi daśās
+  *are* implemented (Chara, Sthira, Thrikona, Brahma, Yogardha, Varnada, Drig,
+  Sudasa, Lagna-Kendrādi, Mandooka, Nārāyaṇa, Niryāṇa-Śūla) plus Karaka graha daśā.
 
 ---
 
@@ -285,7 +283,7 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Спец-лагны** (Аруда, Хора, Гхати и др.).
 - **Раджа-йоги Джаймини** — самбандха АК–АмК (по раши-дришти или соединению), раджа-йоги Каракамши.
 - **Сигнификаторы смерти** (Брахма / Махешвара / Рудра) для работы с долголетием.
-- **Джаймини раши-даши** — **Стхира** (фикс. 7/8/9 лет по природе знака, от раши Брахмы), **Трикона** (от сильнейшей триконы, тригональный порядок), **Брахма** (старт по чётности лагны, длительность до места 6-го лорда); **Йогардха** (½·[Чара+Стхира]), **Варнада** (Варнада-лагна по бхаве), **Дриг** (Джаганнатх/Рао — наборы раши-дришти 9/10/11), **Лагна-Кендради** и **Судаса** (богатство, от **Шри-Лагны**; Рао), плюс Чара / Нараяна / Шула.
+- **Джаймини раши-даши** — **Стхира** (фикс. 7/8/9 лет по природе знака, от раши Брахмы), **Трикона** (от сильнейшей триконы, тригональный порядок), **Брахма** (старт по чётности лагны, длительность до места 6-го лорда); **Йогардха** (½·[Чара+Стхира]), **Варнада** (Варнада-лагна по бхаве), **Дриг** (Джаганнатх/Рао — наборы раши-дришти 9/10/11), **Лагна-Кендради** и **Судаса** (богатство, от **Шри-Лагны**; Рао), **Мандука** (скачок +3, BPHS) и **Карака-даша** (грах-даша карак, BPHS); плюс Чара / Нараяна / Шула.
 
 ### 4. Кришнамурти Паддхати (KP)
 - KP-карта на **куспидах Плацидуса** с **аянамшей Кришнамурти**.
@@ -394,11 +392,10 @@ HTTP API* для вызова. Исходного кода здесь **нет**
   пары нет ведхи); это заявлено, а не считается пропуском данных.
 - **Пхала-Шула-даша — не реализована.** Она предсказывает *возраст смерти* (54–63);
   не включена по той же причине, по которой аюрдая — только диапазон.
-- **Мандука / Навамша / Накшатра-даши — отложены.** Настоящая Мандука использует
-  скачок 3/11 (*мандуки-гати*) по Рудрамше; её длительности, а также Навамша- и
-  Накшатра-раши-даши не даны однозначно в доступных источниках — не выдумываю.
-  Реализованы 11 джаймини раши-даш (Чара, Стхира, Трикона, Брахма, Йогардха,
-  Варнада, Дриг, Судаса, Лагна-Кендради, Нараяна, Ниряна-Шула).
+- **Навамша / Накшатра-даши — отложены.** BPHS/Раман не дают отдельной однозначной
+  конструкции для этих двух — не выдумываю. Реализованы 12 джаймини раши-даш
+  (Чара, Стхира, Трикона, Брахма, Йогардха, Варнада, Дриг, Судаса, Лагна-Кендради,
+  Мандука, Нараяна, Ниряна-Шула) плюс Карака грах-даша.
 
 ---
 
