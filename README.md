@@ -110,7 +110,7 @@ rather than inventing numbers or tables.
 ### 7. Daśā systems
 - **Vimśottari** (up to 5 levels: mahā → antar → pratyantar → sūkṣma → prāṇa), with the current running chain at *any* instant.
 - **Yoginī**, **Aṣṭottarī**, **Kālachakra**, and minor **conditional** daśās.
-- **Jaimini**: **Chara daśā** (Rao and Iranganti variants, with co-lords and unequal antardaśās), **Nārāyaṇa daśā**, **Niryāṇa Śūla daśā** (9-year rāśi daśās for longevity).
+- **Jaimini**: **Chara daśā** (Rao and Iranganti variants, with co-lords and unequal antardaśās), **Nārāyaṇa daśā**, **Niryāṇa Śūla daśā** (longevity), and **Sudarsana Chakra daśā** (1 house/year from the strongest of Lagna/Moon/Sun; Parasara/Rao).
 
 ### 8. Transits & timing
 - **Gochara** (transits) over the natal chart, with **Vedha** (obstruction) and the **Aṣṭakavarga-gated** transit map.
@@ -196,8 +196,9 @@ The engine **declares** what it does not compute rather than guessing:
   (a partner-less star has no vedha); this is stated, not treated as missing data.
 - **Phala-Śūla daśā — not implemented.** It exists to predict the *age of death*
   (54–63); withheld for the same reason Āyurdāya is band-only.
-- **Navāṁśa / Nakshatra daśās — deferred.** BPHS/Raman give no distinct, unambiguous
-  construction for these two, so they are not fabricated. Twelve Jaimini rāśi daśās
+- **"Navāṁśa / Nakshatra daśā" — not distinct systems.** Confirmed against JHora's
+  own dasa catalogue: "nakshatra daśā" is a *class* (Vimśottari, Aṣṭottarī,
+  Kālachakra), and there is no separate constructible Navāṁśa/Nakshatra rāśi daśā. Twelve Jaimini rāśi daśās
   *are* implemented (Chara, Sthira, Thrikona, Brahma, Yogardha, Varnada, Drig,
   Sudasa, Lagna-Kendrādi, Mandooka, Nārāyaṇa, Niryāṇa-Śūla) plus Karaka graha daśā.
 
@@ -306,7 +307,7 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 ### 7. Системы даш
 - **Вимшоттари** (до 5 уровней: маха → антар → пратьянтар → сукшма → прана), с текущей действующей цепочкой на *любой* момент.
 - **Йогини**, **Аштоттари**, **Калачакра** и малые **условные** даши.
-- **Джаймини**: **Чара-даша** (варианты Рао и Иранганти, с со-владыками и неравными антардашами), **Нараяна-даша**, **Ниряна-Шула-даша** (9-летние раши-даши для долголетия).
+- **Джаймини**: **Чара-даша** (варианты Рао и Иранганти, с со-владыками и неравными антардашами), **Нараяна-даша**, **Ниряна-Шула-даша** (долголетие) и **Сударшана-чакра-даша** (1 дом/год от сильнейшего Лагна/Луна/Солнце; Парашара/Рао).
 
 ### 8. Транзиты и тайминг
 - **Гочара** (транзиты) по натальной карте, с **Ведхой** (обструкцией) и картой транзитов с **гейтингом по Аштакаварге**.
@@ -392,8 +393,9 @@ HTTP API* для вызова. Исходного кода здесь **нет**
   пары нет ведхи); это заявлено, а не считается пропуском данных.
 - **Пхала-Шула-даша — не реализована.** Она предсказывает *возраст смерти* (54–63);
   не включена по той же причине, по которой аюрдая — только диапазон.
-- **Навамша / Накшатра-даши — отложены.** BPHS/Раман не дают отдельной однозначной
-  конструкции для этих двух — не выдумываю. Реализованы 12 джаймини раши-даш
+- **«Навамша / Накшатра-даша» — не отдельные системы.** Подтверждено по каталогу
+  даш самой JHora: «накшатра-даша» — это *класс* (Вимшоттари, Аштоттари,
+  Калачакра), отдельной вычислимой Навамша/Накшатра-раши-даши не существует. Реализованы 12 джаймини раши-даш
   (Чара, Стхира, Трикона, Брахма, Йогардха, Варнада, Дриг, Судаса, Лагна-Кендради,
   Мандука, Нараяна, Ниряна-Шула) плюс Карака грах-даша.
 
