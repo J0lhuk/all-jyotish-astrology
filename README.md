@@ -87,6 +87,7 @@ rather than inventing numbers or tables.
 - **Special lagnas** (Ārūḍha, Hora, Ghati, etc.).
 - **Jaimini rāja-yogas** — AK–AmK sambandha (by rāśi-dṛṣṭi or conjunction), Kārakāṁśa rāja-yogas.
 - **Death significators** (Brahma / Maheśvara / Rudra) for longevity work.
+- **Jaimini rāśi daśās** — **Sthira** (fixed 7/8/9-yr signs from Brahma's rāśi), **Thrikona** (from the strongest trine, trine-triad order), **Brahma** (lagna-parity start, span to the 6th-lord's placement); plus Chara / Nārāyaṇa / Śūla already present. (Drig daśā deferred — see Boundaries.)
 
 ### 4. Krishnamurti Paddhati (KP)
 - KP chart on **Placidus cusps** with the **Krishnamurti ayanāṁśa**.
@@ -119,7 +120,8 @@ rather than inventing numbers or tables.
 - A **personal calendar** — favourable/unfavourable day windows for a date range.
 
 ### 9. Longevity & mundane
-- **Āyurdāya (Piṇḍāyu)** — the classical longevity term (B.V. Raman, *How to Judge a Horoscope* vol. 2): each graha's piṇḍa term scaled by its arc from debilitation (full at exaltation, half at debilitation), then the three **Haraṇas** (Chakrapātha, Śatrukṣetra, Astaṅgata). **Ethics:** the engine returns **only a coarse band** — *alpa / madhya / pūrṇa* (short / medium / full) — plus the **maraka (killer) lords**. It **never** emits a date or age of death, by design.
+- **Āyurdāya** — longevity by **three** classical methods, cross-checked: **Piṇḍāyu** (Raman, *How to Judge a Horoscope* vol. 2 — piṇḍa term scaled by arc from debilitation), **Aṁśāyu** (Satyacharya — navāṁśa-based, with Bharaṇa increases), and **Naisargāyu** (Sāravalī 40.20 — fixed natural years Sun..Saturn 20/1/2/9/18/20/50, sum 120); each with the three **Haraṇas** (Chakrapātha, Śatrukṣetra, Astaṅgata). **Ethics:** the engine returns **only a coarse band** — *alpa / madhya / pūrṇa* — plus the **maraka (killer) lords**, and never a date or age of death.
+- **Mūrti-nirṇaya** (transit form) — each transiting graha's **Suvarṇa / Rajata / Tāmra / Loha** mūrti from its house from the natal Moon (1/6/11 gold, 2/5/9 silver, 3/7/10 copper, 4/8/12 iron), rating the transit's quality (Muhūrta-Chintāmaṇi tradition).
 - **Medini (mundane) weather** — the **Tri-Nāḍī chakra** (27 nakṣatras in Heaven / Earth / Pātāla by a verified boustrophedon-of-three), reading rainfall from where benefics vs malefics fall; and the **Sun–Moon nakṣatra owner + gender** rainfall rule. (The 7-fold **Saptanāḍī** chakra is deliberately *not* implemented — its source figures disagree; see *Boundaries*.)
 
 ### 10. Praśna & muhūrta
@@ -190,17 +192,14 @@ The engine **declares** what it does not compute rather than guessing:
 - **Saptanāḍī chakra — not implemented.** The two figures printed in the source
   disagree once OCR-read, so the nakṣatra→nāḍī membership is unresolved. Only the
   cleanly-sourced **Tri-Nāḍī** chakra is offered.
-- **Mūrti-nirṇaya — not implemented.** No clean source is present in the corpus;
-  nothing is fabricated.
 - **Aṣṭamaṅgala rite — not computed.** The cowrie/gold-coin divination is a
   physical rite; only its numeric (Saṅkhya) core is computed, from the number the
   querent supplies.
 - **Dasa-Porutham Vedha** — the five stars with no listed partner simply *pass*
   (a partner-less star has no vedha); this is stated, not treated as missing data.
-- **Nisargāyu — not implemented** (no clean allotment table); only Piṇḍāyu and
-  **Aṁśāyu** (Satyacharya) are computed, both band-only.
-- **Jaimini Drig / Sthira / Brahma / Trikona daśās — not implemented.** The
-  corpus has only narrative and the authorities disagree on order/durations.
+- **Jaimini Drig daśā — not implemented.** Raman only lists it without giving
+  the construction, and the detailing authorities disagree; Sthira, Thrikona
+  and Brahma rāśi daśās *are* implemented (Raman, *Studies in Jaimini*).
 
 ---
 
@@ -284,6 +283,7 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Спец-лагны** (Аруда, Хора, Гхати и др.).
 - **Раджа-йоги Джаймини** — самбандха АК–АмК (по раши-дришти или соединению), раджа-йоги Каракамши.
 - **Сигнификаторы смерти** (Брахма / Махешвара / Рудра) для работы с долголетием.
+- **Джаймини раши-даши** — **Стхира** (фикс. 7/8/9 лет по природе знака, от раши Брахмы), **Трикона** (от сильнейшей триконы, тригональный порядок), **Брахма** (старт по чётности лагны, длительность до места 6-го лорда); плюс Чара / Нараяна / Шула. (Дриг-даша отложена — см. Границы.)
 
 ### 4. Кришнамурти Паддхати (KP)
 - KP-карта на **куспидах Плацидуса** с **аянамшей Кришнамурти**.
@@ -316,7 +316,8 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Персональный календарь** — благо/неблагоприятные окна дней на диапазон дат.
 
 ### 9. Долголетие и мундан
-- **Аюрдая (Пиндаю)** — классический срок жизни (B.V. Raman, *How to Judge a Horoscope* т. 2): пинда-срок каждой грахи, масштабированный дугой от дебилитации (полный в экзальтации, половина в дебилитации), затем три **Хараны** (Чакрапатха, Шатрукшетра, Астангата). **Этика:** движок выдаёт **только грубый диапазон** — *альпа / мадхья / пурна* (короткая / средняя / полная) — плюс **мараки (лорды-убийцы)**. Он **никогда** не называет дату или возраст смерти — намеренно.
+- **Аюрдая** — долголетие **тремя** классическими методами со сверкой: **Пиндаю** (Raman, т.2 — пинда-срок, масштаб дугой от дебилитации), **Амшаю** (Сатьячарья — по навамше, с бхарана-увеличениями) и **Нисаргаю** (Saravali 40.20 — фикс. годы Солнце..Сатурн 20/1/2/9/18/20/50, сумма 120); каждый с тремя **Харанами**. **Этика:** движок выдаёт **только грубый диапазон** *альпа/мадхья/пурна* + **мараки**, и никогда — дату или возраст смерти.
+- **Мурти-нирная** (транзитная) — мурти каждой транзитной грахи **Сварна/Раджата/Тамра/Лоха** по дому от натальной Луны (1/6/11 золото, 2/5/9 серебро, 3/7/10 медь, 4/8/12 железо), оценивает качество транзита (традиция Muhurta Chintamani).
 - **Медини (мундан), погода** — **Три-Нади-чакра** (27 накшатр в Небо / Земля / Патала бустрофедоном-по-3, проверено) читает дожди по тому, где благодетели vs вредители; и правило дождя по **владыке+гендеру накшатр Солнца и Луны**. (7-частная **Саптанади** намеренно *не* реализована — фигуры источника расходятся; см. *Границы*.)
 
 ### 10. Прашна и мухурта
@@ -387,17 +388,14 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Саптанади-чакра — не реализована.** Две фигуры в источнике расходятся при
   OCR, членство накшатр по нади не подтверждено. Предлагается только чисто
   подтверждённая **Три-Нади**.
-- **Мурти-нирная — не реализована.** В корпусе нет чистого источника; ничего не
-  выдумывается.
 - **Обряд аштамангала — не вычисляется.** Гадание на раковинах/золоте —
   физический обряд; считается только его числовое (санкхья) ядро из числа,
   которое даёт вопрошающий.
 - **Ведха в Даса-Порутхам** — пять звёзд без пары просто *проходят* (у звезды без
   пары нет ведхи); это заявлено, а не считается пропуском данных.
-- **Нисаргаю — не реализована** (нет чистой таблицы аллокаций); считаются только
-  Пиндаю и **Амшаю** (Сатьячарья), оба — только диапазон.
-- **Джаймини Дриг/Стхира/Брахма/Трикона-даши — не реализованы.** В корпусе только
-  нарратив, а авторитеты расходятся в порядке/длительностях.
+- **Джаймини Дриг-даша — не реализована.** Raman её только перечисляет без правил
+  построения, детализирующие авторитеты расходятся; Стхира, Трикона и Брахма
+  раши-даши *реализованы* (Raman, *Studies in Jaimini*).
 
 ---
 
