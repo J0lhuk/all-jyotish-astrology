@@ -87,7 +87,7 @@ rather than inventing numbers or tables.
 - **Special lagnas** (Ārūḍha, Hora, Ghati, etc.).
 - **Jaimini rāja-yogas** — AK–AmK sambandha (by rāśi-dṛṣṭi or conjunction), Kārakāṁśa rāja-yogas.
 - **Death significators** (Brahma / Maheśvara / Rudra) for longevity work.
-- **Jaimini rāśi daśās** — **Sthira** (fixed 7/8/9-yr signs from Brahma's rāśi), **Thrikona** (from the strongest trine, trine-triad order), **Brahma** (lagna-parity start, span to the 6th-lord's placement); **Yogardha** (½·[Chara+Sthira]), **Varnada** (Varṇada-lagna per bhāva), **Drig** (Jagannath/Rao — 9th/10th/11th-seeded rāśi-dṛṣṭi sets, Nārāyaṇa spans); plus Chara / Nārāyaṇa / Śūla.
+- **Jaimini rāśi daśās** — **Sthira** (fixed 7/8/9-yr signs from Brahma's rāśi), **Thrikona** (from the strongest trine, trine-triad order), **Brahma** (lagna-parity start, span to the 6th-lord's placement); **Yogardha** (½·[Chara+Sthira]), **Varnada** (Varṇada-lagna per bhāva), **Drig** (Jagannath/Rao — 9th/10th/11th rāśi-dṛṣṭi sets), **Lagna-Kendrādi** & **Sudasa** (wealth, seeded from **Sree Lagna**; Rao), plus Chara / Nārāyaṇa / Śūla.
 
 ### 4. Krishnamurti Paddhati (KP)
 - KP chart on **Placidus cusps** with the **Krishnamurti ayanāṁśa**.
@@ -277,7 +277,7 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Спец-лагны** (Аруда, Хора, Гхати и др.).
 - **Раджа-йоги Джаймини** — самбандха АК–АмК (по раши-дришти или соединению), раджа-йоги Каракамши.
 - **Сигнификаторы смерти** (Брахма / Махешвара / Рудра) для работы с долголетием.
-- **Джаймини раши-даши** — **Стхира** (фикс. 7/8/9 лет по природе знака, от раши Брахмы), **Трикона** (от сильнейшей триконы, тригональный порядок), **Брахма** (старт по чётности лагны, длительность до места 6-го лорда); **Йогардха** (½·[Чара+Стхира]), **Варнада** (Варнада-лагна по бхаве), **Дриг** (Джаганнатх/Рао — наборы раши-дришти от 9/10/11 домов, длит. как Нараяна); плюс Чара / Нараяна / Шула.
+- **Джаймини раши-даши** — **Стхира** (фикс. 7/8/9 лет по природе знака, от раши Брахмы), **Трикона** (от сильнейшей триконы, тригональный порядок), **Брахма** (старт по чётности лагны, длительность до места 6-го лорда); **Йогардха** (½·[Чара+Стхира]), **Варнада** (Варнада-лагна по бхаве), **Дриг** (Джаганнатх/Рао — наборы раши-дришти 9/10/11), **Лагна-Кендради** и **Судаса** (богатство, от **Шри-Лагны**; Рао), плюс Чара / Нараяна / Шула.
 
 ### 4. Кришнамурти Паддхати (KP)
 - KP-карта на **куспидах Плацидуса** с **аянамшей Кришнамурти**.
