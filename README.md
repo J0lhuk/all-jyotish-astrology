@@ -69,6 +69,9 @@ rather than inventing numbers or tables.
 - **Ṣaḍbala** — all six strengths per graha: sthāna, dig, kāla (incl. **naisargika, ayana, hora, vāra, māsa, cheṣṭā, tribhāga, yuddha** components), and their totals in rūpas, with the classical minima and rank.
 - **Bhāva-bala** — house strength (occupant/aspect, lord, and digbala contributions).
 - **Iṣṭa / kaṣṭa phala** — benefic vs malefic capacity of each graha.
+- **Sphuṭas** — fertility: **Bīja** (Sun+Venus+Jupiter) and **Kṣetra** (Moon+Mars+Jupiter) with odd/even rāśi+navāṁśa judgement; longevity/praśna: **Trisphuṭa, Chatuḥsphuṭa, Pañcasphuṭa, Prāṇa, Deha, Mṛtyu** sphuṭas (Praśna Marga VI, verified vs the source's worked example).
+- **Planetary horas** — the 24 hour-lords (weekday lord first, Chaldean order), for electional use.
+- **True node** — optional true (osculating) Rāhu/Ketu alongside the default mean nodes.
 - **Ṣaṣṭyāṁśa (D60) named aṁśas** — the BPHS 60-part deity/nature per graha.
 - **Vimśopaka bala** — weighted dignity across a varga group.
 - **Avasthās** — bālādi, jāgradādi, dīptādi, and combustion (astaṅgata) states.
@@ -194,6 +197,10 @@ The engine **declares** what it does not compute rather than guessing:
   querent supplies.
 - **Dasa-Porutham Vedha** — the five stars with no listed partner simply *pass*
   (a partner-less star has no vedha); this is stated, not treated as missing data.
+- **Nisargāyu — not implemented** (no clean allotment table); only Piṇḍāyu and
+  **Aṁśāyu** (Satyacharya) are computed, both band-only.
+- **Jaimini Drig / Sthira / Brahma / Trikona daśās — not implemented.** The
+  corpus has only narrative and the authorities disagree on order/durations.
 
 ---
 
@@ -259,6 +266,9 @@ HTTP API* для вызова. Исходного кода здесь **нет**
 - **Шадбала** — все шесть сил каждой грахи: стхана, диг, кала (включая **найсаргика, аяна, хора, вара, маса, чешта, трибхага, юддха**), итоги в рупах, классические минимумы и ранг.
 - **Бхава-бала** — сила домов (обитатели/аспекты, владыка, дигбала).
 - **Ишта / кашта пхала** — благая vs вредная способность каждой грахи.
+- **Спхуты** — плодородие: **Биджа** (Солнце+Венера+Юпитер) и **Кшетра** (Луна+Марс+Юпитер) с оценкой по нечёт/чёт раши+навамше; долголетие/прашна: **Тришпхута, Чатухспхута, Панчаспхута, Прана, Деха, Мритью** (Prasna Marga VI, сверено с примером источника).
+- **Планетные хоры** — 24 владыки часов (владыка дня первым, халдейский порядок), для электива.
+- **True-node** — опц. истинные (оскулирующие) Раху/Кету рядом со средними по умолчанию.
 - **Шаштьямша (D60), именованные амши** — 60-частное божество/природа по BPHS.
 - **Вимшопака-бала** — взвешенное достоинство по группе варг.
 - **Авастхи** — баладди, джаградади, диптади и сожжение (астангата).
@@ -384,6 +394,10 @@ HTTP API* для вызова. Исходного кода здесь **нет**
   которое даёт вопрошающий.
 - **Ведха в Даса-Порутхам** — пять звёзд без пары просто *проходят* (у звезды без
   пары нет ведхи); это заявлено, а не считается пропуском данных.
+- **Нисаргаю — не реализована** (нет чистой таблицы аллокаций); считаются только
+  Пиндаю и **Амшаю** (Сатьячарья), оба — только диапазон.
+- **Джаймини Дриг/Стхира/Брахма/Трикона-даши — не реализованы.** В корпусе только
+  нарратив, а авторитеты расходятся в порядке/длительностях.
 
 ---
 
