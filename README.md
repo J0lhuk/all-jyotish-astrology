@@ -194,6 +194,14 @@ The engine **declares** what it does not compute rather than guessing:
   querent supplies.
 - **Dasa-Porutham Vedha** — the five stars with no listed partner simply *pass*
   (a partner-less star has no vedha); this is stated, not treated as missing data.
+- **Phala-Śūla daśā — not implemented.** It exists to predict the *age of death*
+  (54–63); withheld for the same reason Āyurdāya is band-only.
+- **Manduka / Navāṁśa / Nakshatra daśās — deferred.** True Manduka uses the 3rd/11th
+  *mandūki-gati* over the Rudrāṁśa; its full span construction, and the Navāṁśa and
+  Nakshatra rāśi daśās, are not given unambiguously in the available sources, so
+  they are not fabricated. Eleven Jaimini rāśi daśās *are* implemented (Chara,
+  Sthira, Thrikona, Brahma, Yogardha, Varnada, Drig, Sudasa, Lagna-Kendrādi,
+  Nārāyaṇa, Niryāṇa-Śūla).
 
 ---
 
@@ -384,6 +392,13 @@ HTTP API* для вызова. Исходного кода здесь **нет**
   которое даёт вопрошающий.
 - **Ведха в Даса-Порутхам** — пять звёзд без пары просто *проходят* (у звезды без
   пары нет ведхи); это заявлено, а не считается пропуском данных.
+- **Пхала-Шула-даша — не реализована.** Она предсказывает *возраст смерти* (54–63);
+  не включена по той же причине, по которой аюрдая — только диапазон.
+- **Мандука / Навамша / Накшатра-даши — отложены.** Настоящая Мандука использует
+  скачок 3/11 (*мандуки-гати*) по Рудрамше; её длительности, а также Навамша- и
+  Накшатра-раши-даши не даны однозначно в доступных источниках — не выдумываю.
+  Реализованы 11 джаймини раши-даш (Чара, Стхира, Трикона, Брахма, Йогардха,
+  Варнада, Дриг, Судаса, Лагна-Кендради, Нараяна, Ниряна-Шула).
 
 ---
 
